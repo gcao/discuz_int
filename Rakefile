@@ -5,9 +5,9 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "discuz_int"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "gcao@vonage.com"
+    gem.summary = %Q{Integrate Discuz 7.1 and Ruby on Rails 2.3.5 application}
+    gem.description = %Q{Integrate Discuz 7.1 and Ruby on Rails 2.3.5 application}
+    gem.email = "gcao99@gmail.com"
     gem.homepage = "http://github.com/gcao/discuz_int"
     gem.authors = ["Guoliang Cao"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
