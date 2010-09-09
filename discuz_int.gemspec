@@ -24,8 +24,6 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "config/compass.config",
-     "config/locales/en.yml",
-     "config/locales/zh.yml",
      "discuz_int.gemspec",
      "lib/app/models/discuz/attachment.rb",
      "lib/app/models/discuz/base.rb",
