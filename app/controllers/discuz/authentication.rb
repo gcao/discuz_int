@@ -32,7 +32,7 @@ module Discuz
       request.env['forum_session'] = nil
       return unless ENV['INTEGRATE_WITH_FORUM']
 
-      sid = request.cookies[ENV['DISCUZ_COOKIE_PREFIX'] + "_sid"]
+      sid = request.cookies[ENV['DISCUZ_COOKIE_PREFIX'] + "sid"]
       return if sid.blank?
 
       session = Discuz::Session.find sid
