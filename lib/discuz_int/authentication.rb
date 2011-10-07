@@ -14,7 +14,7 @@
 # a before filter. For example.
 # 
 #   before_filter :login_required, :except => [:index, :show]
-module Discuz
+module DiscuzInt
   module Authentication
     def self.included(controller)
       controller.send :helper_method, :login_session, :logged_in?
