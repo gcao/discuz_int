@@ -8,7 +8,7 @@ class Discuz::Post < Discuz::Base
 
   default_scope :order => 'pid'
 
-  named_scope :order_by_id_desc, lambda{ {:order => 'pid desc'} }
+  scope :order_by_id_desc, lambda{ {:order => 'pid desc'} }
 
   def author
     if utf8_encoding?
